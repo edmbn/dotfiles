@@ -16,7 +16,7 @@ packages=(
 "git"
 "node"
 "tmux"
-"neovim"
+# "neovim"
 "zsh"
 )
 
@@ -43,8 +43,8 @@ fi
 # Now lets clone my dotfiles repo into .dotfiles/
 echo "---------------------------------------------------------"
 
-echo "Cloning Mike's dotfiles insto .dotfiles"
-git clone https://github.com/mhartington/dotfiles.git ~/.dotfiles
+echo "Cloning Ed's dotfiles insto .dotfiles"
+git clone https://github.com/edmonfort/dotfiles.git ~/.dotfiles
 
 cd .dotfiles
 git submodule update --init --recursive
@@ -65,8 +65,8 @@ chsh -s $(which zsh)
 echo "You'll need to log out for this to take effect"
 echo "---------------------------------------------------------"
 
-echo "running oxs defaults"
-~./osx.sh
+# echo "running oxs defaults"
+# ~./osx.sh
 
 echo "---------------------------------------------------------"
 echo "All done!"
