@@ -39,11 +39,11 @@
 [ghi]
   token = !security find-internet-password -a mhartington -s github.com -l 'ghi token' -w
 
-[commit]
-  gpgsign = true
+# [commit]
+  # gpgsign = true
 
-[gpg]
-  program = /usr/local/bin/gpg
+# [gpg]
+  # program = /usr/local/bin/gpg
 
 [format]
 	pretty = %Cred%h%Creset - %Cgreen(%ad)%C(yellow)%d%Creset %s %C(bold blue)<%an>%Creset
