@@ -27,6 +27,8 @@
 [github]
   user = edmbn
 
+  # commented by m
+
 # [core]
 #   pager = zsh -lc 'diff-highlight | strip_diff_leading_symbols | less -r' -
 

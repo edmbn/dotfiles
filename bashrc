@@ -18,6 +18,8 @@ YELLOW="\[\033[0;33m\]"
 GREEN="\[\033[0;32m\]"
 NO_COLOUR="\[\033[0m\]"
 
+# start commented by ed
+
 # function _git_prompt() {
 # local git_status="`git status -unormal 2>&1`"
 # # Checks to see if we're in a git repo
@@ -102,7 +104,7 @@ NO_COLOUR="\[\033[0m\]"
 # export _PS1="$YELLOW\u$NO_COLOUR:\w$(_git_prompt)"
 # export PROMPT_COMMAND='export PS1="${_PS1} $(_git_prompt)\n$ "'
 
-
+# end commented by ed
 
 #aliases and functions
 # Some directory listing with colors
