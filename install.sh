@@ -26,6 +26,12 @@ do
   echo "---------------------------------------------------------"
 done
 
+# brew install rbenv
+# npm install --global pure-prompt
+
+# curl -L https://iterm2.com/shell_integration/bash \
+# -o ~/.iterm2_shell_integration.bash
+
 echo "installing RCM, for dotfiles management"
 brew tap thoughtbot/formulae
 brew install rcm
@@ -44,6 +50,7 @@ fi
 echo "---------------------------------------------------------"
 
 echo "Cloning Ed's dotfiles insto .dotfiles"
+
 git clone https://github.com/edmbn/dotfiles.git ~/.dotfiles
 
 cd .dotfiles
