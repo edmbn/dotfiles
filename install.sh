@@ -16,7 +16,7 @@ packages=(
 "git"
 "node"
 "tmux"
-# "neovim"
+"neovim"
 "zsh"
 )
 
@@ -44,7 +44,7 @@ fi
 echo "---------------------------------------------------------"
 
 echo "Cloning Ed's dotfiles insto .dotfiles"
-git clone https://github.com/edmonfort/dotfiles.git ~/.dotfiles
+git clone https://github.com/edmbn/dotfiles.git ~/.dotfiles
 
 cd .dotfiles
 git submodule update --init --recursive

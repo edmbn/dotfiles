@@ -1,31 +1,31 @@
 [core]
   editor = "nvim"
 
-[filter "media"]
-	clean = git-media-clean %f
-  smudge = git-media-smudge %f
+# [filter "media"]
+# 	clean = git-media-clean %f
+#   smudge = git-media-smudge %f
 
 [user]
-	name = Mike Hartington
-	email = mikehartington@gmail.com
-  signingkey = 493BFB24814E6209
+	name = Eduard Monfort
+	email = eduard.monfort@gmail.com
+  # signingkey = 493BFB24814E6209
 
 [credential]
   helper = osxkeychain
 
-[filter "hawser"]
-	clean = git hawser clean %f
-	smudge = git hawser smudge %f
-  required = true
+# [filter "hawser"]
+# 	clean = git hawser clean %f
+# 	smudge = git hawser smudge %f
+#   required = true
 
-[filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
+# [filter "lfs"]
+# 	clean = git-lfs clean -- %f
+# 	smudge = git-lfs smudge -- %f
+# 	process = git-lfs filter-process
+# 	required = true
 
 [github]
-  user = mhartington
+  user = edmbn
 
 # [core]
 #   pager = zsh -lc 'diff-highlight | strip_diff_leading_symbols | less -r' -
@@ -36,8 +36,8 @@
   newNormal = "green bold"
   newHighlight = "green bold 22"
 
-[ghi]
-  token = !security find-internet-password -a mhartington -s github.com -l 'ghi token' -w
+# [ghi]
+#   token = !security find-internet-password -a mhartington -s github.com -l 'ghi token' -w
 
 # [commit]
   # gpgsign = true
@@ -45,7 +45,8 @@
 # [gpg]
   # program = /usr/local/bin/gpg
 
-[format]
-	pretty = %Cred%h%Creset - %Cgreen(%ad)%C(yellow)%d%Creset %s %C(bold blue)<%an>%Creset
+# [format]
+# 	pretty = %Cred%h%Creset - %Cgreen(%ad)%C(yellow)%d%Creset %s %C(bold blue)<%an>%Creset
+
 [help]
 	autocorrect = 1
