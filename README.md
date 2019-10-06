@@ -85,7 +85,7 @@ You should just be able to just run these few lines.
 ```
 brew tap thoughtbot/formulae
 brew install rcm
-git clone https://github.com/edmonfort/dotfiles.git ~/.dotfiles
+git clone https://github.com/edmbn/dotfiles.git ~/.dotfiles
 cd $HOME
 rcup
 ```
