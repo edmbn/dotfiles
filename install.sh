@@ -83,7 +83,7 @@ echo "---------------------------------------------------------"
 
 echo "---------------------------------------------------------"
 echo "All done!"
-echo "and change your terminal font to source code pro"
+echo "and change your terminal font to source code pro (.config/fonts/Sauce Code Pro Bold Nerd Font Complete.ttf)"
 echo "Cheers"
 echo "---------------------------------------------------------"
 
