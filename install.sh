@@ -17,9 +17,10 @@ packages=(
 "node"
 "tmux"
 "neovim"
-"zsh",
-"antigen",
+"zsh"
+"antigen"
 "rbenv"
+"python3"
 )
 
 for i in "${packages[@]}"
