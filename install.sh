@@ -13,6 +13,7 @@ else
 fi
 
 packages=(
+"python3"
 "git"
 "node"
 "tmux"
@@ -20,7 +21,6 @@ packages=(
 "zsh"
 "antigen"
 "rbenv"
-"python3"
 )
 
 for i in "${packages[@]}"

@@ -60,7 +60,9 @@
   call dein#add('lambdalisue/fila.vim')
 " }}}
 " code style {{{
-  " call dein#add('neomake/neomake')
+  call dein#add('neomake/neomake')
+  call dein#add('mhartington/oceanic-next')
+  call dein#add('mhartington/nvim-typescript', {'build': './install.sh'})
   call dein#add('sbdchd/neoformat')
   call dein#add('editorconfig/editorconfig-vim')
 " }}}
@@ -89,7 +91,7 @@
   call dein#add('sgeb/vim-diff-fold')
   call dein#add('airblade/vim-gitgutter')
   call dein#add('junegunn/gv.vim')
-  call dein#add('AGhost-7/critiq.vim')
+" call dein#add('AGhost-7/critiq.vim')
   call dein#add('lambdalisue/gina.vim')
   call dein#add('rhysd/git-messenger.vim', {
     \   'lazy' : 1,
@@ -159,9 +161,9 @@
 " local {{{
   " call dein#add('w0rp/ale')
   call dein#add('dharanasoft/rtf-highlight')
-  call dein#local('~/GitHub', {},['nvim-typescript'])
+" call dein#local('~/GitHub', {},['nvim-typescript'])
   " call dein#add('neoclide/coc.nvim', {'build': 'yarn install'})
-  call dein#local('~/GitHub', {},['vim-folds', 'oceanic-next', 'neomake'])
+"  call dein#local('~/GitHub', {},['vim-folds', 'oceanic-next', 'neomake'])
 " }}}
 " Has to be last according to docs
   " call dein#add('wincent/command-t', {'build': 'sh -c "cd ruby/command-t/ext/command-t && ruby extconf.rb && make"' })
@@ -179,7 +181,7 @@
 
 " System Settings  ----------------------------------------------------------{{{
 
-  source ~/.local.vim
+" source ~/.local.vim
   if exists('g:GuiLoaded')
     Guifont Hasklig:h15
   endif
