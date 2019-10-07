@@ -3,6 +3,7 @@
 # Just .aliases right now git-completion.bash
 autoload -U promptinit; promptinit
 bindkey -v
+source ~/.antigen/bundles/mafredri/zsh-async/async.zsh
 source ~/.prompt2
 # Disable zsh autocorrect
 zstyle ':completion:*' menu select

@@ -90,6 +90,17 @@ cd $HOME
 rcup
 ```
 
+
+## Problems
+
+# Zsh compinit: insecure directories =>
+
+run compaudit and it will give you a list of directories it thinks are unsecure.
+
+run sudo chown -R username:root target_directory
+
+run sudo chmod -R 755 target_directory
+
 ## Inspiration
 
 - [Maximum Awesome](https://github.com/square/maximum-awesome)
