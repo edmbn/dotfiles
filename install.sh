@@ -79,8 +79,8 @@ chsh -s $(which zsh)
 echo "You'll need to log out for this to take effect"
 echo "---------------------------------------------------------"
 
-# echo "running oxs defaults"
-# ~./osx.sh
+echo "running oxs defaults"
+~./osx.sh
 
 echo "---------------------------------------------------------"
 echo "All done!"
