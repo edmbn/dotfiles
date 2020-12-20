@@ -12,12 +12,19 @@ else
 
 fi
 
+#packages=(
+#"python3"
+#"git"
+#"node"
+#"tmux"
+#"neovim"
+#"zsh"
+#"antigen"
+#"rbenv"
+#)
 packages=(
-"python3"
 "git"
 "node"
-"tmux"
-"neovim"
 "zsh"
 "antigen"
 "rbenv"
@@ -47,12 +54,9 @@ fi
 # Now lets clone my dotfiles repo into .dotfiles/
 echo "---------------------------------------------------------"
 
-echo "Cloning Ed's dotfiles insto .dotfiles"
+echo "Cloning edmbn's dotfiles into .dotfiles"
 
 git clone https://github.com/edmbn/dotfiles.git ~/.dotfiles
-
-cd .dotfiles
-git submodule update --init --recursive
 
 cd $HOME
 echo "running RCM's rcup command"
@@ -70,14 +74,6 @@ curl -L https://iterm2.com/shell_integration/install_shell_integration.sh | bash
 
 echo "---------------------------------------------------------"
 
-
-echo "Changing to zsh"
-
-sudo sh -c "echo $(which zsh) >> /etc/shells"
-chsh -s $(which zsh)
-
-echo "You'll need to log out for this to take effect"
-echo "---------------------------------------------------------"
 
 echo "running oxs defaults"
 ~./osx.sh

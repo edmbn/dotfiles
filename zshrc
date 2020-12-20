@@ -3,7 +3,7 @@
 # Just .aliases right now git-completion.bash
 autoload -U promptinit; promptinit
 bindkey -v
-source ~/.antigen/bundles/mafredri/zsh-async/async.zsh
+#source ~/.antigen/bundles/mafredri/zsh-async/async.zsh
 source ~/.prompt2
 # Disable zsh autocorrect
 zstyle ':completion:*' menu select
@@ -19,17 +19,7 @@ autoload -U compinit && compinit
 
 zmodload -i zsh/complist
 compinit -d ~/.zcompdump_capture
-###-begin-ionic-completion-###
 
-if type compdef &>/dev/null; then
-  __ionic() {
-    compadd -- $(ionic completion -- "${words[@]}" 2>/dev/null)
-  }
-
-  compdef __ionic ionic
-fi
-
-###-end-ionic-completion-###
 . <(npm completion)
 
 # Load rbenv automatically by appending
@@ -42,12 +32,11 @@ source /usr/local/share/antigen/antigen.zsh
 # antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
 # antigen bundle marzocchi/zsh-notify
-antigen bundle mafredri/zsh-async
+#antigen bundle mafredri/zsh-async
 # antigen theme eendroroy/alien alien
 # antigen bundle sindresorhus/pure
 antigen apply
 
-source ~/.z/z.sh
 alias journal=~/.journal.sh
 zstyle ':notify:*' command-complete-timeout 5
 zstyle ':notify:*' error-icon "https://media3.giphy.com/media/10ECejNtM1GyRy/200_s.gif"
