@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b80b9895-a637-49ae-b908-fd291ad249de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/config/nvim/autoload/ConflictDetection.vim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/nvim/autoload/airline/extensions/mike.vim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/nvim/autoload/airline/extensions/mikemake.vim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/nvim/autoload/airline/extensions/nvim_typescript.vim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/nvim/autoload/neomake/makers/ft/typescript.vim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/nvim/autoload/unite/sources/nerd.vim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/nvim/autoload/vimfiler/columns/git.vim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/nvim/autoload/vimfiler/columns/test.vim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/nvim/ftplugin/typescriptreact/jsdoc.vim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/nvim/ftplugin/typescriptreact/splitjoin.vim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/nvim/init.vim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/nvim/nerdtree_plugin/git-commands.vim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/nvim/nerdtree_plugin/yank_mapping.vim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/nvim/plugin/ConflictDetection.vim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/nvim/rplugin/python3/defx/column/devicons.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/nvim/rplugin/python3/denite/source/color.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/nvim/rplugin/python3/denite/source/ionic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/nvim/rplugin/python3/denite/source/neomake.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/nvim/rplugin/python3/denite/source/stash.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/tmux/tmux-status.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hammerspoon/init.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/install.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/osx.sh" beforeDir="false" afterPath="$PROJECT_DIR$/osx.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmux/plugins/tpm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/z" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zshrc" beforeDir="false" afterPath="$PROJECT_DIR$/zshrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zshenv" beforeDir="false" afterPath="$PROJECT_DIR$/zshenv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +38,7 @@
       <updated>1608490990668</updated>
       <workItem from="1608490994295" duration="206000" />
       <workItem from="1608491215159" duration="2483000" />
+      <workItem from="1609554990120" duration="768000" />
     </task>
     <servers />
   </component>
@@ -78,5 +55,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

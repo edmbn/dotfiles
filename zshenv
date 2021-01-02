@@ -44,6 +44,9 @@ export PATH=$PATH:$RUST_SRC_PATH
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$HOME/.composer/vendor/bin
 
+# This is for Flutter
+
+export PATH=$HOME/Tools/flutter/bin:$PATH
 
 
 export PATH="$HOME/.rbenv/bin:$PATH"
