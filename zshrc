@@ -3,7 +3,7 @@
 # Just .aliases right now git-completion.bash
 autoload -U promptinit; promptinit
 bindkey -v
-#source ~/.antigen/bundles/mafredri/zsh-async/async.zsh
+source ~/.antigen/bundles/mafredri/zsh-async/async.zsh
 source ~/.prompt2
 # Disable zsh autocorrect
 zstyle ':completion:*' menu select
@@ -32,7 +32,7 @@ source /usr/local/share/antigen/antigen.zsh
 # antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
 # antigen bundle marzocchi/zsh-notify
-#antigen bundle mafredri/zsh-async
+antigen bundle mafredri/zsh-async
 # antigen theme eendroroy/alien alien
 # antigen bundle sindresorhus/pure
 antigen apply
