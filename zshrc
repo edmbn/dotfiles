@@ -3,8 +3,8 @@
 # Just .aliases right now git-completion.bash
 autoload -U promptinit; promptinit
 bindkey -v
-source ~/.antigen/bundles/mafredri/zsh-async/async.zsh
-source ~/.prompt2
+#source ~/.antigen/bundles/mafredri/zsh-async/async.zsh
+
 # Disable zsh autocorrect
 zstyle ':completion:*' menu select
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
@@ -30,11 +30,10 @@ source ~/.iterm2_shell_integration.zsh
 source /usr/local/share/antigen/antigen.zsh
 
 # antigen bundle zsh-users/zsh-syntax-highlighting
-antigen bundle zsh-users/zsh-autosuggestions
 # antigen bundle marzocchi/zsh-notify
-antigen bundle mafredri/zsh-async
-# antigen theme eendroroy/alien alien
 # antigen bundle sindresorhus/pure
+antigen bundle mafredri/zsh-async
+antigen bundle zsh-users/zsh-autosuggestions
 antigen apply
 
 alias journal=~/.journal.sh
@@ -45,3 +44,4 @@ zstyle ':notify:*' success-icon "https://s-media-cache-ak0.pinimg.com/564x/b5/5a
 zstyle ':notify:*' success-title "Success"
 
 # source ~/.dark_mode.sh
+source ~/.prompt2

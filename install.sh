@@ -77,6 +77,14 @@ echo "---------------------------------------------------------"
 
 echo "running oxs defaults"
 ~./osx.sh
+compaudit | xargs chmod g-w
+
+echo "---------------------------------------------------------"
+
+echo "Configure the Xcode command-line tools"
+
+sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
+sudo xcodebuild -runFirstLaunch
 
 echo "---------------------------------------------------------"
 echo "All done!"
