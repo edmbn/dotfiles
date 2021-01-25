@@ -87,6 +87,11 @@ sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
 sudo xcodebuild -runFirstLaunch
 
 echo "---------------------------------------------------------"
+echo "Configure npm user permissions"
+
+sudo chown -R $USER /usr/local/lib/node_modules
+
+echo "---------------------------------------------------------"
 echo "All done!"
 echo "and change your terminal font to source code pro (.config/fonts/Sauce Code Pro Bold Nerd Font Complete.ttf)"
 echo "Cheers"
