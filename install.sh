@@ -1,6 +1,7 @@
 #!/bin/sh
 
-brew="/usr/local/bin/brew"
+# brew="/usr/local/bin/brew"
+brew="/opt/homebrew/bin/brew"
 if [ -f "$brew" ]
 then
   echo "Homebrew is installed, nothing to do here"
