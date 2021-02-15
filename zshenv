@@ -27,6 +27,7 @@ export PATH=${JAVA_HOME}/bin:$PATH
 export PATH=/usr/local/bin:$PATH
 # export PATH=${PATH}:~/.cargo/bin:$PATH
 export PATH=${PATH}:~/bin
+export PATH=/opt/homebrew/bin:$PATH
 export BREW_PATH=$(brew --prefix)
 
 export PATH="/usr/local/sbin:$PATH"
