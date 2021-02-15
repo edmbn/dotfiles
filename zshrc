@@ -27,7 +27,8 @@ compinit -d ~/.zcompdump_capture
 
 eval "$(rbenv init -)"
 source ~/.iterm2_shell_integration.zsh
-source /usr/local/share/antigen/antigen.zsh
+source /opt/homebrew/share/antigen/antigen.zsh
+# source /usr/local/share/antigen/antigen.zsh
 
 # antigen bundle zsh-users/zsh-syntax-highlighting
 # antigen bundle marzocchi/zsh-notify
