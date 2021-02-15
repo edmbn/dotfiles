@@ -10,7 +10,7 @@ else
   echo "This may take a while"
   echo "Homebrew requires osx command lines tools, please download xcode first"
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
+  export PATH=/opt/homebrew/bin:$PATH
 fi
 
 #packages=(
