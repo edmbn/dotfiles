@@ -32,6 +32,8 @@ export BREW_PATH=$(brew --prefix)
 
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/opt/python@2/bin:$PATH"
+export PATH="$/Users/edmbn/.local/bin"
+
 # export PATH="$(brew --prefix gettext)/bin:$PATH"
 # export CFLAGS="-I/usr/local/opt/openssl/include $CFLAGS"
 # export LDFLAGS="-L/usr/local/opt/openssl/lib $LDFLAGS"
